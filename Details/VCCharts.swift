@@ -34,6 +34,7 @@ class VCCharts: UIViewController {
         btnChartList[0].sendActions(for: .touchUpInside)
     }
     
+    
     func customizeChart(dataPoints: [String], values: [Double], index: Int) {
         print(dataPoints)
         print(values)
